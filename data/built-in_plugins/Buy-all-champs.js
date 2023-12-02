@@ -75,7 +75,7 @@ export class Store {
 }
 
 if (DataStore.get("buy-all-champs")) {
-    let eConsole = "%c ElainaV3 "
+    let eConsole = "%c ISAK V1 "
     let eCss = "color: #ffffff; background-color: #f77fbe"
 
     const buttonId = "buy-450-champions-button"

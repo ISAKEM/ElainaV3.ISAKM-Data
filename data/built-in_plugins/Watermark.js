@@ -2,7 +2,7 @@ import utils from "../_utils.js"
 
 let datapath = new URL("..", import.meta.url).href
 
-function ElainaTrigger() {
+function IsakTrigger() {
     const container0  = document.createElement("div")
     const container2  = document.createElement("div")
 	const container3  = document.createElement("div")
@@ -18,10 +18,10 @@ function ElainaTrigger() {
 	const Greeting    = document.createElement("p")
 	const watermark   = document.createElement("div")
 	const wtmark      = document.createElement("p")
-	const Elaina1ImageDiv = document.createElement("div")
-	const Elaina1Image    = document.createElement("img")
-	const Elaina1TextDiv  = document.createElement("div")
-	const Elaina1Text = document.createElement("p")
+	const Isak1ImageDiv = document.createElement("div")
+	const Isak1Image    = document.createElement("img")
+	const Isak1TextDiv  = document.createElement("div")
+	const Isak1Text = document.createElement("p")
 	const headpatdiv  = document.createElement("div")
 	const headpat     = document.createElement("button")
 	const boobsdiv    = document.createElement("div")
@@ -38,8 +38,8 @@ function ElainaTrigger() {
 	mainDiv.id = "EasterEgg1Div"
 
 	container0.classList.add ("watermark-text")
-	container2.classList.add ("Elaina1ImageCon")
-	container3.classList.add ("Elaina1TextCon")
+	container2.classList.add ("Isak1ImageCon")
+	container3.classList.add ("Isak1TextCon")
     container4.classList.add ("Greeting-con")
 	container5.classList.add ("Headpat-con")
 	container6.classList.add ("Boobs-con")
@@ -82,10 +82,10 @@ function ElainaTrigger() {
 		count += 1;
 		if (count > 5) {
 			wtmark.remove()
-			Elaina1Text.classList.add ("Elaina1Text")
-			Elaina1Image.classList.add("Elaina1Image")
-			Elaina1Image.setAttribute ("src", `${datapath}assets/Icon/Plugins-icons/ElainaCB.png`)
-			Elaina1Text.innerHTML =  "Huh ?";
+			Isak1Text.classList.add ("Isak1Text")
+			Isak1Image.classList.add("Isak1Image")
+			Isak1Image.setAttribute ("src", `${datapath}assets/Icon/Plugins-icons/IsakCB.png`)
+			Isak1Text.innerHTML =  "Huh ?";
 
 			function generateGreeting(date) {
 				const hour = date.getHours();
@@ -134,13 +134,13 @@ function ElainaTrigger() {
 				boobs.style.visibility = "visible"
 				Headpatcount += 1;
 				if (Headpatcount < 15) {
-					Elaina1Text.innerHTML = "Meow ~~ !!"
+					Isak1Text.innerHTML = "Meow ~~ !!"
 
 					container3.style.bottom = "260px"
 					container3.style.right = "280px"
 				}
 				if (Headpatcount >= 15) {
-					Elaina1Text.innerHTML = "Mo... My hair is burning !!"
+					Isak1Text.innerHTML = "Mo... My hair is burning !!"
 
 					container3.style.bottom = "260px"
 					container3.style.right = "225px"
@@ -149,7 +149,7 @@ function ElainaTrigger() {
 
 			goOutSide.addEventListener("click", () => {
 				Greeting.innerHTML = " "
-				Elaina1Text.innerHTML = "You should go outside<br>and touch grass"
+				Isak1Text.innerHTML = "You should go outside<br>and touch grass"
 				container3.style.bottom = "250px"
 				container3.style.right = "241px"
 
@@ -168,7 +168,7 @@ function ElainaTrigger() {
 
 				answer4.addEventListener("click", () => {
 					Greeting.innerHTML = " "
-					Elaina1Text.innerHTML = "Do what ever you want.<br>I don't care"
+					Isak1Text.innerHTML = "Do what ever you want.<br>I don't care"
 					container3.style.bottom = "249px"
 					container3.style.right = "235px"
 
@@ -182,7 +182,7 @@ function ElainaTrigger() {
 
 				answer5.addEventListener("click", () => {
 					Greeting.innerHTML = " "
-					Elaina1Text.innerHTML = "I'm so proud of you.You <br>should turn off the client now<br> and hangout with me (≧▽≦)"
+					Isak1Text.innerHTML = "I'm so proud of you.You <br>should turn off the client now<br> and hangout with me (≧▽≦)"
 					container3.style.bottom = "238px"
 					container3.style.right = "214px"
 
@@ -193,7 +193,7 @@ function ElainaTrigger() {
 
 			boobs.addEventListener("click", () => {
 				Greeting.innerHTML = " "
-				Elaina1Text.innerHTML = "Ehh...where did you<br>just touch !?"
+				Isak1Text.innerHTML = "Ehh...where did you<br>just touch !?"
 
 				container3.style.bottom = "250px"
 				container3.style.right = "250px"
@@ -208,7 +208,7 @@ function ElainaTrigger() {
 
 				answer1.addEventListener("click", () => {
 					Greeting.innerHTML = " "
-					Elaina1Text.innerHTML = "... You should be careful<br>next time"
+					Isak1Text.innerHTML = "... You should be careful<br>next time"
 
 					container3.style.bottom = "248px"
 					container3.style.right = "239px"
@@ -224,7 +224,7 @@ function ElainaTrigger() {
 				answer2.addEventListener("click", () => {
 					answer2clicked += 1;
 					Greeting.innerHTML = " "
-					Elaina1Text.innerHTML = "As you wish, my darling ~~"
+					Isak1Text.innerHTML = "As you wish, my darling ~~"
 
 					container3.style.bottom = "260px"
 					container3.style.right = "219px"
@@ -241,7 +241,7 @@ function ElainaTrigger() {
 						answer3.setAttribute("href", "https://media.discordapp.net/attachments/887677396315172894/1081501404729974804/6f5ba14e64dea4feb1349c3b658338349e0c1244.png")
 						answer3.setAttribute("target", "_blank")
 						answer3.addEventListener("click", () => {
-							Elaina1Text.innerHTML = "..."
+							Isak1Text.innerHTML = "..."
 
 							container3.style.bottom = "260px"
 							container3.style.right = "325px"
@@ -272,15 +272,15 @@ function ElainaTrigger() {
 	mainDiv.append(container3)
 
 	container0.append(watermark)
-	container2.append(Elaina1ImageDiv)
-	container3.append(Elaina1TextDiv)
+	container2.append(Isak1ImageDiv)
+	container3.append(Isak1TextDiv)
 
 	watermark.append(wtmark)
-	Elaina1ImageDiv.append(Elaina1Image)
-	Elaina1TextDiv.append(Elaina1Text)
+	Isak1ImageDiv.append(Isak1Image)
+	Isak1TextDiv.append(Isak1Text)
 }
 
-function DelElainaTrigger() {
+function DelIsakTrigger() {
     try {
         document.getElementById("EasterEgg1Div").remove()
     }
@@ -290,11 +290,11 @@ function DelElainaTrigger() {
 let addWatermark = (node) => {
 	let pagename = node.getAttribute("data-screen-name")
 	if (pagename == "rcp-fe-lol-home-main" && !document.getElementById("EasterEgg1Div")) {
-		ElainaTrigger()
+		IsakTrigger()
 	}
 	else if (pagename != "rcp-fe-lol-home-main" && pagename != "social") {
 		if (document.getElementById("EasterEgg1Div")) {
-			DelElainaTrigger()
+			DelIsakTrigger()
 		}
 	}
 }

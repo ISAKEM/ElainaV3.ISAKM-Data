@@ -1,9 +1,8 @@
 /**
- * @name ElainaV3
- * @author Elaina Da Catto
- * @description Elaina theme 3rd Generation for Pengu Loader
- * @link https://github.com/Elaina69
- * @Nyan Meow~~~
+ * @name ISAK V1
+ * @author Elaina Da Catto/ISAK.M
+ * @description Isak theme 1st Generation for Pengu Loader
+ * @link https://github.com/ISAKEM
  */
 import "./data/ImportUpdate.js"
 import "./data/Update-message.js"
@@ -23,7 +22,8 @@ import "./data/built-in_plugins/profile-utils-master.js"
 import "./data/built-in_plugins/ThemeSettings.js"
 import "./data/built-in_plugins/PluginsSettings.js"
 import "./data/built-in_plugins/Practice-5vs5.js"
-import "./data/built-in_plugins/Renzkin-Button.js"
+import "./data/built-in_plugins/Renzskin-Button.js"
+import "./data/built-in_plugins/RenzskinLobby-Button.js"
 import "./data/built-in_plugins/Debug.js" 
 import "./data/built-in_plugins/Watermark.js"
 import "./data/built-in_plugins/Donate.js"

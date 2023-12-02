@@ -16,13 +16,7 @@ async function createMenu(root) {
 						<lol-uikit-dialog-frame class="dialog-frame" orientation="bottom" close-button="false">
 							<div class="dialog-content">
 								<lol-uikit-content-block class="app-controls-exit-dialog" type="dialog-small" style="width: 500px;">
-									<h5 class="Elaina-Update" style="text-align: center">Thanks for using Elaina_V3 !!</p>
-									<hr class="heading-spacer" />
-									<hr class="heading-spacer" />
-									<p class="Elaina-Update" style="text-align: center">If you love ElainaV3, you can support me by sharing this theme to your friend</p>
-									<p class="Elaina-Update" style="text-align: center">or donating me</p>
-									<div id="donate"></div>
-									<p class="Elaina-Update" style="text-align: center">Meow ~~~</p>
+									<h5 class="Isak-Update" style="text-align: center">Thank u for using ISAK V1</p>
 								</lol-uikit-content-block>
 							</div>
 							<lol-uikit-flat-button-group type="dialog-frame">

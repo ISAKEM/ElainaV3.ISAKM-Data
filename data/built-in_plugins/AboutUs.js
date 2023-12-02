@@ -1,5 +1,5 @@
 let datapath = new URL("..", import.meta.url).href
-let eConsole = "%c ElainaV3 "
+let eConsole = "%c ISAK V1 "
 let eCss = "color: #ffffff; background-color: #f77fbe"
 
 import lang from "../configs/Language.js"
@@ -134,13 +134,7 @@ const injectSettings = (panel) => {
             */
             document.createElement("br"),
             UI.Row("Donation",[
-                UI.Label("Thanks for using Elaina-V3 :3","first_line"),
-                UI.Label("If you love ElainaV3, you can support me by sharing this theme to your friend"),
-                UI.Label("or donating me"),
-                UI.Row("Donation-row",[
-                    UI.ImageAndLink("ko-fi.webp","https://ko-fi.com/elainadacatto"),
-                    UI.ImageAndLink("momo.svg", "https://me.momo.vn/elainadacatto"),
-                ])
+                UI.Label("Thanks for using ISAK V1","first_line"),
             ])
         ])
     )

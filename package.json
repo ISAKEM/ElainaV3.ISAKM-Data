@@ -1,7 +1,7 @@
 {
   "name": "elainav3-isakmfork-data",
   "version": "2.2.11-1.1.2",
-  "description": "Data files for ElainaV3 theme",
+  "description": "Data files for ISAKV1 theme",
   "main": "index.js",
   "files": [
     "index.js",
@@ -9,19 +9,19 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Elaina69/Elaina-V3.git"
+    "url": "git+https://github.com/ISAKEM/ISAKV1.git"
   },
-  "author": "Elaina Da Catto",
+  "author": "Elaina Da Catto/ISAK.M",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Elaina69/Elaina-V3/issues"
+    "url": "https://github.com/ISAKEM/ISAKV1/issues"
   },
-  "homepage": "https://github.com/Elaina69/Elaina-V3",
+  "homepage": "https://github.com/ISAKEM/ISAKV1",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "elainav3",
-    "isakm"
+    "isakv1"
   ]
 }

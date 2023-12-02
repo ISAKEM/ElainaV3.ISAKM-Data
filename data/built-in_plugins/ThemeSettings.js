@@ -185,8 +185,8 @@ const injectSettings = (panel) => {
          UI.Row("Info",[
             UI.Row("Info-div",[
                UI.Link(
-                  'ElainaV3',
-                  'https://github.com/Elaina69/Elaina-V3'
+                  'ISAK V1',
+                  'https://github.com/ISAKEM/ISAKV1'
                ),
                UI.Label(
                   `*${selectedLang["note"]}: ${selectedLang["note-1"]}`
@@ -196,7 +196,7 @@ const injectSettings = (panel) => {
             UI.Image("Logo.png", "theme-settings-logo")
          ]),
          UI.Slider(
-            selectedLang["wallpaper-volume"],DataStore.get("wallpaper-volume"),"elaina-bg","wallpaper-volume"
+            selectedLang["wallpaper-volume"],DataStore.get("wallpaper-volume"),"isak-bg","wallpaper-volume"
          ),
          UI.Slider(
             selectedLang["music-volume"],DataStore.get("audio-volume"),"bg-audio","audio-volume"

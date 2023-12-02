@@ -1,5 +1,5 @@
 let datapath = new URL("..", import.meta.url).href
-let eConsole = "%c ElainaV3 "
+let eConsole = "%c ISAK V1 "
 let eCss = "color: #ffffff; background-color: #f77fbe"
 
 import ChampsP from "../configs/ChampionsPrices.js"
@@ -216,8 +216,8 @@ const injectSettings = (panel) => {
          UI.Row("Info",[
             UI.Row("Info-div",[
                UI.Link(
-                  'ElainaV3',
-                  'https://github.com/Elaina69/Elaina-V3'
+                  'ISAK V1',
+                  'https://github.com/ISAKEM/ISAKV1'
                ),
                UI.Label(
                   `*${selectedLang["note"]}: ${selectedLang["note-1"]}`

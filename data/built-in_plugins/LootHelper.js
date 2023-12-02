@@ -1,6 +1,6 @@
 let datapath = new URL("..", import.meta.url).href
 import lang from "../configs/Language.js"
-let eConsole = "%c ElainaV3 "
+let eConsole = "%c ISAK V1 "
 let eCss = "color: #ffffff; background-color: #f77fbe"
 
 if (DataStore.get("loot-helper")) {

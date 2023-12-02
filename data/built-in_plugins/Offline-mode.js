@@ -16,7 +16,7 @@ function get_status() {
 }
 
 let switch_between_status = async () => {
-	let eConsole = "%c ElainaV3 "
+	let eConsole = "%c ISAK V1 "
 	let eCss = "color: #ffffff; background-color: #f77fbe"
 	let status = get_status()
 	let availability = (status == "chat") ? "mobile" : (status == "mobile") ? "dnd" : (status == "dnd") ? "away" : (status == "away") ? "offline" : (status == "offline") ? "chat" : "chat"

@@ -1,4 +1,4 @@
 # Attention !!
-This is Npm data package for ElainaV3 theme
+This is the npm data package for ISAK V1 theme
 
-If you want to download theme,open [this](https://github.com/Elaina69/Elaina-V3)
+If you want to download the theme,open [this](https://github.com/ISAKEM/ISAKV1)

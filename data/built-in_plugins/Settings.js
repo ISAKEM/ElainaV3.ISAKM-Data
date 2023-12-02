@@ -48,7 +48,7 @@ export function init(context) {
         let ember = await ember_api.getEmber()
 
         let newGroup = {
-            name: 'elaina-v3',
+            name: 'isak-v1',
             titleKey: 'el_title',
             capitalTitleKey: 'el_title_capital',
             categories:[]
@@ -125,8 +125,8 @@ export function init(context) {
         tra.__proto__.get = function(key) {
             if (key.startsWith('el_')) {
                 switch (key) {
-                    case 'el_title': return 'Elaina-V3'
-                    case 'el_title_capital': return 'ELAINA-V3'
+                    case 'el_title': return 'ISAK V1'
+                    case 'el_title_capital': return 'ISAK V1'
                     case 'el_theme-settings': return 'THEME SETTINGS'
                     case 'el_plugins-settings': return 'PLUGINS SETTINGS'
                     case 'el_aboutus-settings': return 'ABOUT US'
@@ -167,17 +167,17 @@ export function init(context) {
                     window.__SETTINGS_OBJECT = this
 
                     this.addTemplate('el-theme-settings', ember.HTMLBars.template({
-                        id: "ElainaThemeSettings",
+                        id: "IsakThemeSettings",
                         block: JSON.stringify(themeTab),
                         meta: {}
                     }))
                     this.addTemplate('el-plugins-settings', ember.HTMLBars.template({
-                        id: "ElainaPluginsSettings",
+                        id: "IsakPluginsSettings",
                         block: JSON.stringify(pluginsTab),
                         meta: {}
                     }))
                     this.addTemplate('el-aboutus-settings', ember.HTMLBars.template({
-                        id: "ElainaAboutUsSettings",
+                        id: "IsakAboutUsSettings",
                         block: JSON.stringify(about),
                         meta: {}
                     }))

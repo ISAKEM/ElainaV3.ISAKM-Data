@@ -11,7 +11,7 @@ const addPrac5 = () => {
                 await fetch('/lol-lobby/v2/lobby', {
                     method: 'POST',
                     body: JSON.stringify(
-                        {"customGameLobby":{"configuration":{"gameMode":"PRACTICETOOL","gameMutator":"","gameServerRegion":"","mapId":11,"mutators":{"id":1},"spectatorPolicy":"AllAllowed","teamSize":5},"lobbyName":"Elaina-V3 Practice room","lobbyPassword":null},"isCustom":true}
+                        {"customGameLobby":{"configuration":{"gameMode":"PRACTICETOOL","gameMutator":"","gameServerRegion":"","mapId":11,"mutators":{"id":1},"spectatorPolicy":"AllAllowed","teamSize":5},"lobbyName":"ISAK V1 Practice room","lobbyPassword":null},"isCustom":true}
                     ),
                     headers: {'Content-Type': 'application/json'}
                 })

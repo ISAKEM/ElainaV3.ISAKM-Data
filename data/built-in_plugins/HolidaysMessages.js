@@ -44,9 +44,9 @@ if (DataStore.get("Holiday")) {
                             <lol-uikit-dialog-frame class="dialog-frame" orientation="bottom" close-button="false">
                                 <div class="dialog-content">
                                     <lol-uikit-content-block class="app-controls-exit-dialog" type="dialog-small" style="width: 500px;">
-                                        <h5>Elaina_V3</h5>
+                                        <h5>ISAK_V1</h5>
                                         <hr class="heading-spacer" />
-                                        <p class="Elaina-Update" style="text-align: center">${message}</p>
+                                        <p class="Isak-Update" style="text-align: center">${message}</p>
                                         <hr class="heading-spacer" />
                                         <hr class="heading-spacer" />
                                         <img src="${imageLink}" style="width: 410px; border: 0px; border-radius: 10px; filter: ${filter};">

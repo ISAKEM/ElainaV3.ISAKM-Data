@@ -15,6 +15,7 @@ const lang = {
         "dodge"           : "Dodge",
         "exit"            : "Exit",
         "auto_accept"     : "Auto Accept",
+        "renzskin"        : "R3nzskin",
 
         "l.open_settings" : "Settings",
         "l.open_devtools" : "Open DevTools",
