@@ -58,7 +58,7 @@ function ElainaTrigger() {
 		wtmark.innerHTML = "";
 	}
 	else {
-		wtmark.innerHTML = "By Elaina Da Catto";
+		wtmark.innerHTML = "By Elaina Da Catto/Modified by ISAK.M";
 	}
 
 	Greeting.classList.add ("Greeting")
