@@ -6,7 +6,7 @@ const addPrac6 = () => {
             let button = document.createElement("lol-uikit-flat-button")
             button.id = "pract-button"
             button.textContent = "R3nzSkin"
-            button.style.marginLeft = "530px"
+            button.style.marginLeft = "390px"
             button.onclick = async () => {
                 window.openPluginsFolder(`ISAK-V1-1.0/data/assets/R3nzskin`)
             }
