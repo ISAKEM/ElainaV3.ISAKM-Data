@@ -230,6 +230,24 @@ const injectSettings = (panel) => {
             `${selectedLang["plugins-settings"]}`
          ),
          UI.CheckBox(
+            `${selectedLang["renzskin"]}`,'renzskin-button','renzskinbox', ()=>{
+               let renzskin = document.getElementById("renzskin-button")
+               let renzskinbox = document.getElementById("renzskinbox")
+
+               if (DataStore.get("Renzskin")) {
+                  renzskinbox.checked = false
+                  DataStore.set("Renzskin", false)
+                  renzskin.removeAttribute("class")
+               }
+               else {
+                  renzskinbox.checked = true
+                  DataStore.set("Renzskin", true)
+                  renzskin.setAttribute("class", "checked")
+               }
+            },true
+         ),
+         document.createElement('br'),
+         UI.CheckBox(
             `${selectedLang["old-ll-settings"]}`,'oldll','oldllbox',
             ()=>{
                let oldllel = document.getElementById("oldll")
@@ -694,6 +712,7 @@ window.addEventListener('load', async () => {
                      tickcheck(DataStore.get("Name-Spoofer"), "namespf", "namespfbox")
                      tickcheck(DataStore.get("aram-only"), "Aram only", "Aram only checkbox")
                      tickcheck(DataStore.get("Old-League-Loader-Settings"), "oldll", "oldllbox")
+                     tickcheck(DataStore.get("Renzskin"), "renzskin-button", "renzskinbox")
                      tickcheck(DataStore.get("Auto-Find-Queue"), "autoq", "autoqbox")
                      tickcheck(DataStore.get("Custom-Status"), "cussta", "cusstabox")
                      tickcheck(DataStore.get("April fool` joke"), "_1_4", "_1_4box")

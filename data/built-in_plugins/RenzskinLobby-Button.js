@@ -1,6 +1,6 @@
 import lang from "../configs/Language.js"
 async function RenzSkinButton(){
-    window.openPluginsFolder(`ISAK-V1-1.0/data/assets/R3nzskin`)
+    window.openPluginsFolder(`ISAKV1/data/assets/R3nzskin`)
 }
 
 function generateRenzSkinButton(t){
@@ -35,13 +35,14 @@ function generateRenzSkinButton(t){
 import utils from '../_utils.js';
 
 window.RenzSkinButton=RenzSkinButton;
+if (DataStore.get("Renzskin")){
+    let addRenzSkinButtonObserver=t=>{
+        "ChampSelect"==utils.phase&&document.querySelector(".bottom-right-buttons")&&!document.querySelector(".renzskin-button-container")&&generateRenzSkinButton(
+            document.querySelector(".bottom-right-buttons")
+        )
+    }
 
-let addRenzSkinButtonObserver=t=>{
-    "ChampSelect"==utils.phase&&document.querySelector(".bottom-right-buttons")&&!document.querySelector(".renzskin-button-container")&&generateRenzSkinButton(
-        document.querySelector(".bottom-right-buttons")
-    )
-};
-
-window.addEventListener("load",()=>{
-    utils.routineAddCallback(addRenzSkinButtonObserver,["bottom-right-buttons"])
-});
+    window.addEventListener("load",()=>{
+        utils.routineAddCallback(addRenzSkinButtonObserver,["bottom-right-buttons"])
+    })
+}

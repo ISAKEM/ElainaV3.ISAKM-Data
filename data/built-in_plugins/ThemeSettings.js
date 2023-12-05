@@ -168,7 +168,7 @@ const UI = {
             utils.addFont(DataStore.get("Font-folder"),DataStore.get("CurrentFont"),"Custom-font","Custom")
 			}
 			if (DataStore.get("CurrentFont") == opt) {
-				el.setAttribute("selected", "true")
+				el.setAttribute("selected", "false")
 			}
 			dropdown.appendChild(el)
 		}

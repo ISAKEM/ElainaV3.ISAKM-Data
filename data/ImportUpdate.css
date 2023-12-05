@@ -48,7 +48,7 @@
 }
 
 .dev_ava {
-    width: 150px;
+    width: 100px;
     border-radius: 50%;
     border: 5px solid #ff8787;
 }
@@ -72,6 +72,12 @@
 #first_line_p {
 	font-size: 18px;
     color: #f9a8a8;
+    font-weight: 600;
+}
+
+#first_line_i {
+    font-size: 18px;
+    color: #0000d6;
     font-weight: 600;
 }
 

@@ -94,6 +94,11 @@ const injectSettings = (panel) => {
             UI.Row("Developer",[
                 UI.Row("dev-avatar",[
                     UI.Row("dev-div",[
+                        UI.Image("About-Us/Isak.png", "dev_ava"),
+                        UI.Label("ISAK.M", "first_line_i"),
+                        UI.Label("Creator of this fork")
+                    ]),
+                    UI.Row("dev-div",[
                         UI.Image("About-Us/ElainaDaCatto.png", "dev_ava"),
                         UI.Label("Elaina Da Catto", "first_line_p"),
                         UI.Label("Main Developer")
