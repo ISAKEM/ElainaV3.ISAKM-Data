@@ -96,11 +96,11 @@ else if (DataStore.get(`Update-${update}`) && !DataStore.get(`Force-Update`)) {
 										<h5>ISAK V1 - ${updateType} Update ${update}</h5>
 										<hr class="heading-spacer" />
 
-										<p class="Isak-Update">- Add auto honor plugins</p>
-										<p class="Isak-Update">- Update invite all plugins</p>
-										<p class="Isak-Update">- Fix plugins settings</p>
-										<p class="Isak-Update"></p>
-										<p class="Isak-Update"></p>
+										<p class="Isak-Update">- Added Ninja Naruto font</p>
+										<p class="Isak-Update">- Added R3nzskin toggle button</p>
+										<p class="Isak-Update">- Added myself to About us section</p>
+										<p class="Isak-Update">- Added Season 9 Challenger Banner</p>
+										<p class="Isak-Update">- Replaced custom rune backgrounds</p>
 										<p class="Isak-Update"></p>
 										<p class="Isak-Update"></p>
 										<p class="Isak-Update"></p>
