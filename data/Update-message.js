@@ -96,12 +96,12 @@ else if (DataStore.get(`Update-${update}`) && !DataStore.get(`Force-Update`)) {
 										<h5>ISAK V1 - ${updateType} Update ${update}</h5>
 										<hr class="heading-spacer" />
 
-										<p class="Isak-Update">- Added Ninja Naruto font</p>
-										<p class="Isak-Update">- Added R3nzskin toggle button</p>
-										<p class="Isak-Update">- Added myself to About us section</p>
-										<p class="Isak-Update">- Added Season 9 Challenger Banner</p>
-										<p class="Isak-Update">- Replaced custom rune backgrounds</p>
-										<p class="Isak-Update"></p>
+										<p class="Isak-Update">- Fixed Season 9 Challenger banner to be correct size</p>
+										<p class="Isak-Update">- Added "Blitza" on said banner</p>
+										<p class="Isak-Update">- Removed very questionable content from the watermark</p>
+										<p class="Isak-Update">- Added W.I.P minimalistic view (restart client to go back to normal)</p>
+										<p class="Isak-Update">- Fixed issue where randoms would complain about not being able to see the background (cba randoms XD)</p>
+										<p class="Isak-Update">- Honestly idk maybe ive done more things I cant remember</p>
 										<p class="Isak-Update"></p>
 										<p class="Isak-Update"></p>
 										<p class="Isak-Update"></p>
