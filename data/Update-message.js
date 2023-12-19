@@ -96,12 +96,12 @@ else if (DataStore.get(`Update-${update}`) && !DataStore.get(`Force-Update`)) {
 										<h5>ISAK V1 - ${updateType} Update ${update}</h5>
 										<hr class="heading-spacer" />
 
-										<p class="Isak-Update">- Fixed Season 9 Challenger banner to be correct size</p>
-										<p class="Isak-Update">- Added "Blitza" on said banner</p>
-										<p class="Isak-Update">- Removed very questionable content from the watermark</p>
-										<p class="Isak-Update">- Added W.I.P minimalistic view (restart client to go back to normal)</p>
-										<p class="Isak-Update">- Fixed issue where randoms would complain about not being able to see the background (cba randoms XD)</p>
-										<p class="Isak-Update">- Honestly idk maybe ive done more things I cant remember</p>
+										<p class="Isak-Update">- Social panel is now see-through</p>
+										<p class="Isak-Update">- Finished "Minimalistic view"</p>
+										<p class="Isak-Update">- U can now change banner from lobby and under theme settings</p>
+										<p class="Isak-Update">- Fixed the fuckin animated cat</p>
+										<p class="Isak-Update"></p>
+										<p class="Isak-Update"></p>
 										<p class="Isak-Update"></p>
 										<p class="Isak-Update"></p>
 										<p class="Isak-Update"></p>

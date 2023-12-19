@@ -123,41 +123,38 @@ const UI = {
 
       return div
    },
-   Dropdown: (list,target,text,name,id) => {
-      const origin = document.createElement("div")
-      const title  = document.createElement("div")
-      const dropdown = document.createElement("lol-uikit-framed-dropdown")
+   DropdownRegalia: () => {
+       const origin = document.createElement("div")
+       const dropdown = document.createElement("lol-uikit-framed-dropdown")
 
-      origin.classList.add("Dropdown-div")
-      title.classList.add("lol-settings-window-size-text")
-      title.innerHTML = text
-      dropdown.classList.add("lol-settings-general-dropdown")
-      origin.append(title,dropdown)
-      for (let i = 0; i < list[target].length; i++) {
-			const opt = list[target][i]
-			const el = document.createElement("lol-uikit-dropdown-option")
-			el.setAttribute("slot", "lol-uikit-dropdown-option")
-			el.innerText = opt[name]
-			el.id = opt[id]
-			el.onclick = () => {
-				DataStore.set(target, opt[id])
-			}
-			if (DataStore.get(target) == opt[id]) {
-				el.setAttribute("selected", "true")
-			}
-			dropdown.appendChild(el)
-		}
-      return origin
+       origin.classList.add("Dropdown-div")
+       dropdown.classList.add("lol-settings-general-dropdown")
+       origin.append(dropdown)
+       for (let i = 0; i < DataStore.get("RegaliaBanners-list").length; i++) {
+            const opt = DataStore.get("RegaliaBanners-list")[i]
+            const el = document.createElement("lol-uikit-dropdown-option")
+            el.setAttribute("slot", "lol-uikit-dropdown-option")
+            el.innerText = opt
+            el.onclick = () => {
+                DataStore.set("CurrentRegaliaBanner", opt)
+
+            }
+            if (DataStore.get("CurrentRegaliaBanner") == opt) {
+                el.setAttribute("selected", "false")
+            }
+            dropdown.appendChild(el)
+       }
+       return origin
    },
 
    DropdownCustomFont: () => {
-      const origin = document.createElement("div")
-      const dropdown = document.createElement("lol-uikit-framed-dropdown")
+       const origin = document.createElement("div")
+       const dropdown = document.createElement("lol-uikit-framed-dropdown")
 
-      origin.classList.add("Dropdown-div")
-      dropdown.classList.add("lol-settings-general-dropdown")
-      origin.append(dropdown)
-      for (let i = 0; i < DataStore.get("Font-list").length; i++) {
+       origin.classList.add("Dropdown-div")
+       dropdown.classList.add("lol-settings-general-dropdown")
+       origin.append(dropdown)
+       for (let i = 0; i < DataStore.get("Font-list").length; i++) {
 			const opt = DataStore.get("Font-list")[i]
 			const el = document.createElement("lol-uikit-dropdown-option")
 			el.setAttribute("slot", "lol-uikit-dropdown-option")
@@ -171,7 +168,7 @@ const UI = {
 				el.setAttribute("selected", "false")
 			}
 			dropdown.appendChild(el)
-		}
+      }
       return origin
    },
 }
@@ -501,6 +498,8 @@ const injectSettings = (panel) => {
                   }
                }
             ),
+            document.createElement('br'),
+            UI.DropdownRegalia(),
             document.createElement('br'),
             UI.CheckBox(
                `${selectedLang["Custom-Hover-card-backdrop"]}`,'cushvbdrop','cushvbdropbox',
