@@ -14,7 +14,7 @@ let newdate = day+"/"+month
 
 let message,imageLink,filter
 
-if (/*DataStore.has("Day") && newdate != DataStore.get("Day")*/true) {
+if (DataStore.has("Day") && newdate != DataStore.get("Day")/*true*/) {
     try {
         if (newdate == config[newdate]["Day"]) {
             message = config[newdate]["Text"]
