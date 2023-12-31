@@ -1,38 +1,38 @@
 let config = {
     "1/1": {
         "Day"    : "1/1",
-        "Text"   : "Happy new year !!",
-        "Image"  : "83110343_p1.jpg",
+        "Text"   : "Happy New Year!",
+        "Image"  : "S14.jpg",
         "filters": "brightness(1.0)"
     },
-    "9/3": {
-        "Day"    : "9/3",
-        "Text"   : "Okaimono~~~ Okaimono~~~ ",
-        "Image"  : "miku.jpg",
+    "30/3": {
+        "Day"    : "30/3",
+        "Text"   : "Happy Easter!",
+        "Image"  : "Easter.png",
         "filters": "brightness(1.0)"
     },
     "31/10": {
         "Day"    : "31/10",
-        "Text"   : "I'm pretty sure I'm dressed as a maid right now (=^ ◡ ^=)",
-        "Image"  : "24.jpg",
+        "Text"   : "Happy Halloween!",
+        "Image"  : "Halloween.jpg",
         "filters": "brightness(1.0)"
     },
     "1/11": {
         "Day"    : "1/11",
-        "Text"   : "Happy NNN day !!",
-        "Image"  : "Image8.png",
-        "filters": "brightness(0.8)"
+        "Text"   : "NNN STARTS TODAY",
+        "Image"  : "NNN.webp",
+        "filters": "brightness(1.0)"
     },
     "1/12": {
         "Day"    : "1/12",
-        "Text"   : "Goodbye, NNN and Welcoom, DDD !!",
-        "Image"  : "85133902_p0.png",
-        "filters": "brightness(0.9)"
+        "Text"   : "Finally the agony is over and we can start beating it",
+        "Image"  : "DDD.jpg",
+        "filters": "brightness(1.0)"
     },
-    "25/12": {
-        "Day"    : "25/12",
-        "Text"   : "Merry Christmas !!",
-        "Image"  : "67987805_p1.jpg",
+    "24/12": {
+        "Day"    : "24/12",
+        "Text"   : "Merry Christmas!",
+        "Image"  : "Christmas.jpg",
         "filters": "brightness(1.0)"
     },
 
