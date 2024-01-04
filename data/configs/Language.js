@@ -16,6 +16,8 @@ const lang = {
         "exit"            : "Exit",
         "auto_accept"     : "Auto Accept",
         "renzskin"        : "R3nzskin",
+        "opgg"            : "OP.GG",
+        "ugg"             : "U.GG",
 
         "l.open_settings" : "Settings",
         "l.open_devtools" : "Open DevTools",

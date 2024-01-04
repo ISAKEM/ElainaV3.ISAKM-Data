@@ -96,10 +96,10 @@ else if (DataStore.get(`Update-${update}`) && !DataStore.get(`Force-Update`)) {
 										<h5>ISAK V1 - ${updateType} Update ${update}</h5>
 										<hr class="heading-spacer" />
 
-										<p class="Isak-Update">- Fixed images and days for all major western holidays (idc about any other holidays)</p>
-										<p class="Isak-Update">- Added BigBlue Terminal Plus, JetBrains Mono aswell as X360 fonts</p>
-										<p class="Isak-Update">- Added Grandmaster and Master borders</p>
-										<p class="Isak-Update">- Thats it stfu ik its not much</p>
+										<p class="Isak-Update">- Added OP.GG and U.GG buttons to check your ranked lobby</p>
+										<p class="Isak-Update">- Fixed some custom fonts being too big to display KDA stats in a single line in match history</p>
+										<p class="Isak-Update"></p>
+										<p class="Isak-Update"></p>
 										<p class="Isak-Update"></p>
 										<p class="Isak-Update"></p>
 										<p class="Isak-Update"></p>

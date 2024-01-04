@@ -15,7 +15,7 @@ if (DataStore.get("Renzskin")) {
                     window.openPluginsFolder(`ISAKV1/data/assets/R3nzskin`)
                 }
                 let gameBar = document.querySelector(".lobby-header-content")
-                gameBar.insertBefore(button, gameBar.children[5])
+                gameBar.insertBefore(button, gameBar.children[6])
             } catch
             {
             }
